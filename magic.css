@@ -1,0 +1,24 @@
+/*Background Image*/
+body {
+	height:1700px;
+	background:url(https://media2.giphy.com/media/HCTfYH2Xk5yw/source.gif);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+/*You can also use RGB or RGBA when changing colors as well*/
+div{
+	background:#614945;
+}
+
+/*Adding borders to things lol, they always have 3 things
+border-color, border-width,and border-style*/
+h1{
+	color:#ecf0f1;/*The writing's color*/
+
+	border-color: #ADDBCD;
+	border-width: 2px;
+	border-style: dotted; /*or dashed or solid*/
+	/*This can all be summed up into one line as follows*/
+	border: 2px dashed #ADDBCD;
+}
