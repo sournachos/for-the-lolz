@@ -8,17 +8,34 @@ body {
 
 /*You can also use RGB or RGBA when changing colors as well*/
 div{
-	background:#614945;
+	position: relative;
+    left: 50%;
+	top: 50%;
+	background:lightgreen;
+	max-width: 100px;
 }
 
 /*Adding borders to things lol, they always have 3 things
 border-color, border-width,and border-style*/
 h1{
+	max-width: 100px;
 	color:#ecf0f1;/*The writing's color*/
 
+    background-color:#614945 ;
 	border-color: #ADDBCD;
 	border-width: 2px;
 	border-style: dotted; /*or dashed or solid*/
-	/*This can all be summed up into one line as follows*/
+
+	/*Lines 20-23 can all be summed up into one line as follows*/
 	border: 2px dashed #ADDBCD;
 }
+
+/*Flippy Tippy Punchy Rhonda Rousy*/
+
+div { 
+	transform-origin:200% center;
+	animation:rotate 3s linear infinite;
+}
+
+@keyframes rotate { 100% { transform:rotateY(360deg); } }
+
